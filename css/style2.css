@@ -1,0 +1,222 @@
+body{
+  
+  background-image:  url("../img/computer-min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+ ._wrapper{
+  background-color: #343a40d1;
+ 
+ }
+
+ ._wrapper2{
+   
+  border: 1px gray;
+  border-radius: 16px;
+  min-height: 520px;
+  padding: 8px;
+  position: relative;
+  width: 80vw;
+  
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #343a40d1; 
+ 
+ }
+
+ ._table{
+   background-color: #4e535700;
+ }
+ ._title{
+  
+  color:#fff;
+  margin-top: 0px;
+  
+}
+._subtitle{
+  color: #fff;
+}
+
+._scancontainer{
+
+  margin-top: 0;
+}
+
+._uploadbox h3{
+  color: #fff;
+}
+
+#cardResult
+{
+  background-color:#4e535700;;
+ 
+  
+}
+
+#btnScan {
+  /* background-color: #343a40; */
+  color: #fff;
+  font-weight: bold;
+  font-size: 19px;
+  border-radius: 10px;
+}
+
+ .nav{
+    /* background-color:  #173758; */
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+   
+  }
+
+  
+  ._uploadbox li, a{
+   
+      color: #fff;
+    
+  }
+
+  ._customnav img{
+
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 8px;
+  }
+
+  .inner-container{
+    width: 80%; 
+    margin-right: auto;
+    margin-left: auto;
+    padding: 110px;
+    min-height: 70vh;
+    border-radius: 16px;
+  }
+
+
+  .content{
+    
+    margin: auto;
+  }
+
+  ._maintitle{
+    max-width: 750px;
+    background-color: #aaaaaa8a;
+    margin-top: 60px;
+    
+  }
+
+  ._nav{
+    background-color: #f1f1f173;
+  }
+
+  ._aboutcontainer{
+    margin-top: 15px;
+   height: 100vh;
+  }
+
+  .inner-container{
+    padding: 80px;
+    width: 60%;
+    /* background-color: #343a40d1; 
+     */
+  }
+  .inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    /* color: #f8f9fae6; */
+    color: #343a40;
+    text-align: center;
+  }
+  
+  /* .textAbout{ */
+    /* font-size: 20px; */
+    /* color:#343a40;; */
+    /* color: #f8f9fae6; */
+    /* color: #343a40;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px; */
+  /* } */
+  
+  .skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    /* color: #f8f9fae6; */
+    color: #343a40;
+  }
+
+
+  #modalResearchInfo1 table th{
+    text-align: center;
+    vertical-align: middle;
+    /* background: #343a40;; */
+    /* color: #fff; */
+    width: 20%;
+  }
+  
+  
+  .modal-header, .modal-footer{
+  
+    background: #343a40;;
+  }
+
+  @media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+  }
+  
+  @media screen and (max-width:1000px){
+    .inner-container{
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:600px){  
+    .inner-container{
+        padding: 60px;
+       
+    }
+    /* body{
+      background:none;
+    } */
+    ._customcontainer{
+         background: none; 
+        margin-top: 0
+    }
+  }
+
+  @media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+      padding: 0 0.5em;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+      border-right: 2px solid #fff;
+    }
+  }
+
+  .navbar{
+
+    /* position: fixed; */
+    width: 100%;
+    /* z-index: -1; */
+    /* overflow: hidden;  */
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    /* background: #22242A;;
+    padding: 20px; */
+    /* width: calc(100% - 0%);
+    top: 0;
+    margin-bottom: 1000px; */
+    /* min-height: 30px; */
+
+  }
+
+  
